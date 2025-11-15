@@ -1,0 +1,101 @@
+body {
+  background: #111;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.button-bar {
+  margin: 20px;
+}
+
+.start-btn,
+.stop-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.start-btn {
+  background: #1e90ff;
+  color: white;
+}
+
+.stop-btn {
+  background: #d9534f;
+  color: white;
+}
+
+/* Intersección */
+.intersection {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  margin: 40px auto;
+}
+
+.road {
+  background: #3c3c3c;
+  position: absolute;
+}
+
+.horizontal {
+  width: 100%;
+  height: 180px;
+  top: 160px;
+}
+
+.vertical {
+  width: 180px;
+  height: 100%;
+  left: 260px;
+}
+
+/* Ubicaciones */
+.light {
+  position: absolute;
+}
+
+.north { top: 2px; left: 300px; }
+.south { bottom: 2px; left: 300px; }
+.east  { right: 40px; top: 162px; }
+.west  { left: 40px; top: 162px; }
+
+/* Semáforo */
+.traffic-light-box {
+  background: #556B2F;  /* verde musgo */
+  padding: 10px;
+  width: 60px;
+  border-radius: 10px;
+  border: 3px solid #3B4A1F; /* borde más oscuro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+}
+
+.light-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 6px;
+  opacity: 0.2;
+  background: black;
+  transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.red { background: red; }
+.yellow { background: yellow; }
+.green { background: #00ff00; }
+
+.on {
+  opacity: 1;
+  box-shadow: 0 0 12px white;
+}
