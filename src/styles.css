@@ -36,8 +36,8 @@ body {
 /* Intersección */
 .intersection {
   position: relative;
-  width: 850px;      /* más amplitud */
-  height: 650px;     /* más altura */
+  width: 850px;      
+  height: 650px;    
   margin: 40px auto;
 }
 
@@ -47,20 +47,20 @@ body {
   position: absolute;
 }
 
-/* Carretera horizontal más ancha y centrada */
+/* Carretera horizontal */
 .horizontal {
   width: 100%;
-  height: 220px;      /* más ancha */
-  top: 215px;         /* centrada */
+  height: 220px;     
+  top: 215px;        
   border-top: 8px solid #2b2b2b;
   border-bottom: 8px solid #2b2b2b;
 }
 
-/* Carretera vertical más ancha y centrada */
+/* Carretera vertical */
 .vertical {
-  width: 220px;        /* más ancha */
+  width: 220px;        
   height: 100%;
-  left: 315px;         /* ajustado al centro */
+  left: 315px;         
   border-left: 8px solid #2b2b2b;
   border-right: 8px solid #2b2b2b;
 }
@@ -103,7 +103,7 @@ body {
   opacity: 0.9;
 }
 
-/* Ubicaciones de semáforos – ajustadas para la nueva escala */
+
 .light {
   position: absolute;
 }
@@ -117,17 +117,17 @@ body {
 .traffic-light-box {
   background: #556B2F;
   padding: 8px;
-  width: 48px;               /* más pequeño */
+  width: 48px;               
   border-radius: 10px;
   border: 3px solid #3B4A1F;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 120px;             /* más pequeño */
+  height: 120px;             
 }
 
 .light-circle {
-  width: 36px;               /* tamaño reducido */
+  width: 36px;              
   height: 36px;
   border-radius: 50%;
   margin: 5px;
